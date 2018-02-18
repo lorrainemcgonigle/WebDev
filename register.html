@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Login App</title>
+        <script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+        <script src="code.js"></script>
+    </head>
+    <body onload="onload()">
+        <h1>Sign Up Screen</h1>
+        <div>
+            <input type="email" id="email" pattern=".*@.*\..*" required = "required"/>
+            <input type="password" id="password"/>
+            <button type="submit" id="registerMe" onclick="handleSignUp()">Register Me</button>
+        </div>
+    </body>
+</html>
